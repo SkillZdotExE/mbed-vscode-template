@@ -14,10 +14,10 @@ buildType:
       long: Optimize generated code
       buildType: Release
 board:
-  default: NUCLEO_U575ZI_Q
+  default: MBED_BOARD_NAME
   choices:
     NUCLEO_U575ZI_Q:
-      short: NUCLEO_U575ZI_Q
+      short: MBED_BOARD_NAME
       settings:
-        MBED_TARGET: NUCLEO_U575ZI_Q
-        UPLOAD_METHOD: STM32CUBE
+        MBED_TARGET: MBED_BOARD_NAME
+        UPLOAD_METHOD: UPLOAD_METHOD
